@@ -15,7 +15,6 @@ var TodoService = /** @class */ (function () {
         this.addTodo$ = this.addTodoSubject.asObservable();
         this.removeTodo$ = this.removeTodoSubject.asObservable();
         this.toggleTodo$ = this.toggleTodoSubject.asObservable();
-        // Fetch initial todos (you can replace this with an API call)
         this.getInitialTodos();
     }
     TodoService.prototype.getInitialTodos = function () {

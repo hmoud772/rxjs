@@ -23,7 +23,6 @@ class TodoService implements Todo {
   toggleTodo$: Observable<number> = this.toggleTodoSubject.asObservable();
 
   constructor() {
-    // Fetch initial todos (you can replace this with an API call)
     this.getInitialTodos();
   }
 
